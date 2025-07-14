@@ -1,0 +1,48 @@
+{
+  "name": "zsh-ascii-art",
+  "version": "1.0.0",
+  "description": "Oh My Zsh plugin for displaying custom ASCII art via neofetch overrides and aliases",
+  "keywords": [
+    "zsh",
+    "oh-my-zsh",
+    "ascii",
+    "neofetch",
+    "cli",
+    "plugin"
+  ],
+  "homepage": "https://github.com/cabrera-evil/zsh-ascii-art",
+  "bugs": {
+    "url": "https://github.com/cabrera-evil/zsh-ascii-art/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cabrera-evil/zsh-ascii-art"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "cabrera-evil",
+    "email": "info@cabrera-dev.com"
+  },
+  "maintainers": [
+    {
+      "name": "cabrera-evil",
+      "email": "info@cabrera-dev.com"
+    }
+  ],
+  "scripts": {
+    "build": "exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^9.0.0",
+    "semantic-release": "^24.2.5",
+    "semantic-release-export-data": "^1.1.0"
+  },
+  "engines":{
+    "node": ">=18.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.6.1"
+}
